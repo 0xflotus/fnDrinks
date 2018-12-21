@@ -1,0 +1,12 @@
+schema_version: 20180708
+name: drinks
+version: 0.0.4
+runtime: java11
+build_image: fnproject/fn-java-fdk-build:jdk11-1.0.80
+run_image: fnproject/fn-java-fdk:jre11-1.0.80
+cmd: com.example.fn.DrinksFunction::handleRequest
+format: http-stream
+triggers:
+- name: drinks-trigger
+  type: http
+  source: /drinks-trigger
