@@ -2,14 +2,14 @@ package com.example.fn;
 
 public class DrinkData {
 
-    private Integer alcohol;
+    private Long alcohol;
     private String name;
 
-    public Integer getAlcohol() {
+    public Long getAlcohol() {
         return alcohol;
     }
 
-    public void setAlcohol(Integer alcohol) {
+    public void setAlcohol(Long alcohol) {
         this.alcohol = alcohol;
     }
 
