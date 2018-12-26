@@ -1,2 +1,2 @@
 # fnDrinks
-experimental serverless functions
+experimental serverless functions w/ fn
